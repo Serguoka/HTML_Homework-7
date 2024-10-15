@@ -1,0 +1,102 @@
+.header {
+  border-bottom: solid 1px;
+  border-color: #ececec;
+}
+
+.header__content {
+  height: 80px;
+  display: flex;
+}
+
+.header__logo {
+  margin-right: 93px;
+}
+
+.header__contacts {
+  margin-left: auto;
+  gap: 50px;
+}
+.logo {
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+
+  width: fit-content;
+
+  font-family: Raleway;
+  line-height: 30.52px;
+  font-size: 31px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+
+  color: #000;
+}
+
+.logo__web {
+  color: var(--color--blue);
+}
+
+.logo--white {
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  color: #212121;
+  font-weight: 500;
+}
+
+.nav__item {
+  display: flex;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+
+  transition: color 0.3s;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: var(--color--blue);
+}
+
+.contacts {
+  padding: 0;
+  display: flex;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  transition: color 0.3s;
+}
+
+.contacts__link:hover {
+  color: var(--color--blue);
+}
+
+.contacts__icon {
+  color: inherit;
+}
+
+.contacts__icon--envelope {
+  height: 12px;
+  width: 16px;
+}
+.contacts__icon--smartphone {
+  height: 16px;
+  width: 10px;
+}
