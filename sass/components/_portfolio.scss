@@ -1,0 +1,10 @@
+.portfolio {
+  margin: 94px 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__filters {
+    margin: 0 auto 34px;
+  }
+}

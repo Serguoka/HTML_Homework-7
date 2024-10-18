@@ -1,0 +1,9 @@
+.page {
+  font-family: "Roboto", sans-serif;
+  color: var(--color--gray);
+
+  &:has(.modal--is-open) {
+    padding-right: 17px;
+    overflow: hidden;
+  }
+}

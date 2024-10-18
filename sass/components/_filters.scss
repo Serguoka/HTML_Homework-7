@@ -1,0 +1,38 @@
+.filters {
+  padding: 0;
+  width: fit-content;
+
+  display: flex;
+  gap: 8px;
+
+  list-style: none;
+}
+
+.filter--active .filter__button {
+  color: #fff;
+
+  background-color: var(--color--blue);
+  box-shadow: 0px 3px 1px 0px #0000001a;
+}
+
+.filter__button {
+  padding: 6px 22px;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.filter__button:focus,
+.filter__button:hover {
+  background-color: var(--color--blue);
+  color: #fff;
+}

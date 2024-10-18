@@ -1,0 +1,51 @@
+.clients {
+  padding: 94px 0;
+
+  &__title {
+    margin-bottom: 50px;
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    gap: 30px;
+
+    list-style: none;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+  }
+  &__icon {
+    width: 106px;
+    height: 60px;
+
+    color: inherit;
+  }
+
+  &__link:hover {
+    color: var(--color--blue);
+    border-color: var(--color--blue);
+  }
+}
+
+.contacts__address {
+  color: #fff;
+}
+.white {
+  color: #fff;
+}
