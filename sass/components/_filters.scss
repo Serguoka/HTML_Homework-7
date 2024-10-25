@@ -11,7 +11,7 @@
 .filter--active .filter__button {
   color: #fff;
 
-  background-color: var(--color--blue);
+  background-color: $color--blue;
   box-shadow: 0px 3px 1px 0px #0000001a;
 }
 
@@ -33,6 +33,6 @@
 
 .filter__button:focus,
 .filter__button:hover {
-  background-color: var(--color--blue);
+  background-color: $color--blue;
   color: #fff;
 }

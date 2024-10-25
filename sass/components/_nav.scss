@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #212121;
+    font-weight: 500;
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+
+    transition: color 0.3s;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: $color--blue;
+  }
+}

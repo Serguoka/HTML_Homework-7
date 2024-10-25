@@ -1,6 +1,6 @@
 .page {
   font-family: "Roboto", sans-serif;
-  color: var(--color--gray);
+  color: $color--main-black;
 
   &:has(.modal--is-open) {
     padding-right: 17px;

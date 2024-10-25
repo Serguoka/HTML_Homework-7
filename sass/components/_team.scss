@@ -10,8 +10,6 @@
     letter-spacing: 0.03em;
 
     text-align: center;
-
-    color: #000;
   }
 
   &__list {
@@ -68,18 +66,18 @@
   border-radius: 50%;
   background-color: #fff;
 
-  color: var(--color--icon-gray);
+  color: $color--icon-gray;
   transition: color 0.3s, background-color 0.3s;
 }
 
 .social-icons__link--footer {
   color: #fff;
-  background-color: var(--color--icon-background-gray);
+  background-color: $color--icon-background-gray;
 }
 
 .social-icons__link:hover {
   color: white;
-  background-color: var(--color--blue);
+  background-color: $color--blue;
 }
 
 .social-icons__icon {

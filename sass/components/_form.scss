@@ -73,12 +73,12 @@
 
 .form__input:focus,
 .form__input:hover {
-  border-color: var(--color--blue);
+  border-color: $color--blue;
 }
 
 .form__input:hover + .form__input-icon,
 .form__input:focus + .form__input-icon {
-  color: var(--color--blue);
+  color: $color--blue;
 }
 
 .form__input-icon {
@@ -121,7 +121,7 @@
 }
 
 .form__link {
-  color: var(--color--blue);
+  color: $color--blue;
   text-decoration: underline;
 }
 
@@ -141,7 +141,7 @@
 
   border: none;
   border-radius: 4px;
-  background-color: var(--color--blue);
+  background-color: $color--blue;
   color: #fff;
 
   box-shadow: 0px 4px 4px 0px #00000026;

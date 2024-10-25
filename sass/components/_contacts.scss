@@ -1,0 +1,38 @@
+.contacts {
+  padding: 0;
+  display: flex;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    transition: color 0.3s;
+    color: $color--gray;
+
+    &--address {
+      color: #fff;
+    }
+  }
+
+  &__link:hover {
+    color: $color--blue;
+  }
+
+  &__icon {
+    color: inherit;
+  }
+
+  &__icon--envelope {
+    height: 12px;
+    width: 16px;
+  }
+  &__icon--smartphone {
+    height: 16px;
+    width: 10px;
+  }
+
+  &__address {
+    font-style: normal;
+  }
+}
